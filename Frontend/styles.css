@@ -1,0 +1,50 @@
+.booking-widget {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.slot {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.slot:hover {
+    background: #218838;
+}
+
+.booked {
+    background: gray !important;
+    cursor: not-allowed;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}
